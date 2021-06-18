@@ -103,8 +103,8 @@ def sendEmail(to, content):
     server.ehlo()
     server.starttls()
     # Enable low security in gmail
-    server.login('travishshaikh5@gmail.com', 'deadpool@1')
-    server.sendmail('travishshaikh5@gmail.com', to, content)
+    server.login('your email', 'your gmail password') # your email suppose = xyz@1gmail.com  , your password= 1233455354
+    server.sendmail('your email', to, content) #your email suppose = xyz@1gmail.com
     server.close()
 
 
